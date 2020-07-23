@@ -21,4 +21,4 @@ jobs:
         target_repo_url:
           ssh://git@bitbucket.bottomline.tech:7999/~jonathan.levis/mobile-native-utils.git
         ssh_private_key:                                # <-- use 'secrets' to pass credential information.
-          ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+          ${{ secrets.DEPLOY_KEY }}
